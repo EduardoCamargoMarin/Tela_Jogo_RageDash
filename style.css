@@ -1,0 +1,201 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+}
+
+body{
+    background-color: black;
+    
+  
+}
+
+.cabecalho{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 20px;
+    gap: 20px;
+    align-items: center;
+    justify-content: space-around;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-weight: 900;
+    color: white;
+
+}
+
+.cabecalho-imagem{
+    width: 400px;
+    height: 250px;
+    animation: float 2s ease infinite;
+}
+
+@keyframes float{
+
+0%{
+    transform:  translateY(0px);
+}
+50%{
+    transform: translateY(20px);
+}
+
+100%{
+    transform:  translateY(0px);
+}
+
+}
+
+
+.sec1{
+   display: flex ;
+   flex-direction: row;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   
+}
+
+.sec2{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+.div1{
+    
+    border: 0.4px solid red;
+    background-color: black;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+
+    
+}
+
+.div2{
+    border: 0.4px solid blue;
+    background-color: black;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+
+    
+    
+}
+
+.div3{
+    border: 0.4px solid green;
+    background-color: black;
+    border-radius: 20px;
+    height: 200px;
+    width: 200px;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.div4{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+
+.div1:hover{
+    
+    width: 200px;
+    background-image: url(pixil-gif-drawing\ \(1\).gif);
+    background-size: contain;
+    background-position: center;
+    transition-duration: .1s;
+    cursor: pointer;
+}
+.div1:active{
+ 
+ 
+ background-position: center;
+ border: 10px solid red;
+ background-image: url(pixil-frame-0.png);
+ 
+}
+
+.div2:hover{
+    
+    width: 200px;
+    background-image: url(pixil-gif-drawing\ \(2\).gif);
+    background-size: contain;
+    background-position: center;
+    transition-duration: .1s;
+    cursor: pointer;
+    
+    
+}
+
+.div2:active{
+ 
+ background-position: center;
+ border: 10px solid blue;
+ background-image: url(pixil-frame-0\ \(2\).png);
+ 
+}
+
+.div3:hover{
+    
+    width: 200px;
+    background-image: url(pixil-gif-drawing\ \(3\).gif);
+    background-size: contain;
+    background-position: center;
+    transition-duration: .1s;
+    cursor: pointer;
+    
+    
+}
+
+.div3:active{
+ 
+ background-position: center;
+ border: 10px solid blue;
+ background-image: url(pixil-frame-0\ \(1\).png);
+ 
+}
+
+.botao3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    width: 200px;
+    height: 30px;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    
+    font-size: 20px;
+}
+
+.botao3:hover{
+
+    width: 200px;
+    transition-duration: .1s;
+    cursor: pointer;
+    border: 2px solid white;
+}
+
+.botao3:active{
+border-color: red;
+
+}
+
+.rodape{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.rodapemensagem{
+    color: white;
+}
